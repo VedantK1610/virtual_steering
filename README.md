@@ -2,11 +2,11 @@
  Using a combination of computer vision and hand tracking technology, this project allows you to steer a virtual car as if you were holding a real steering wheel.
 
 Features:
-Realistic Steering: Control the direction of your virtual car by moving your hands in a steering motion.
-Responsive and Intuitive: Enjoy a responsive gaming experience with precise control over your vehicle.
-Nitro Boost: Activate a nitro boost by a simple thumb flick for that extra burst of speed.
-Customizable Thresholds: Easily adjust the sensitivity of the steering and nitro activation to suit your preferences.
-Multi-Hand Support: Detect and differentiate between both left and right hands for a complete gaming experience.
+1.Realistic Steering: Control the direction of your virtual car by moving your hands in a steering motion.<br/>
+2.Responsive and Intuitive: Enjoy a responsive gaming experience with precise control over your vehicle.<br/>
+3.Nitro Boost: Activate a nitro boost by a simple thumb flick for that extra burst of speed.<br/>
+4.Customizable Thresholds: Easily adjust the sensitivity of the steering and nitro activation to suit your preferences.<br/>
+5.Multi-Hand Support: Detect and differentiate between both left and right hands for a complete gaming experience.<br/>
 
 Demo:
 https://drive.google.com/file/d/1x32j2aakHFSxh2V3eMp5DzKwUcszhHHP/view?usp=drive_link
