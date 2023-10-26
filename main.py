@@ -8,13 +8,16 @@ mp_drawings_styles = mp.solutions.drawing_styles
 
 previous_right_position = None
 d_key_pressed = False
-right_threshold = 0.83
+right_threshold = 0.65
 
 previous_left_position = None
 a_key_pressed = False
-left_threshold = 0.17
+left_threshold = 0.30
 
 cap = cv2.VideoCapture(0)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH,320)  # Set width to your desired value
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
+cap.set(cv2.CAP_PROP_FPS, 25)
 hands = mp_hands.Hands()
 
 while True:
@@ -25,8 +28,8 @@ while True:
     results = hands.process(image)
 
     if results.multi_hand_landmarks:
-        for hand in results.multi_handedness:
-            index = hand.classification[0].index
+        # for hand in results.multi_handedness:
+        #     index = hand.classification[0].index
 
         for hand_landmarks in results.multi_hand_landmarks:
             mp_drawings.draw_landmarks(
